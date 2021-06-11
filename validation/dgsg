@@ -1,0 +1,17 @@
+if (  userName.value === ''|| userName.value===null){
+  document.getElementById('top').innerHTML = "nigga add that dayyumm username";
+  setTimeout(function()
+  {  document.getElementById('top').remove();
+    ; }, 2000);
+ 
+}
+
+if(password.value.length < 5){
+  document.getElementById('low').innerHTML = "nigga add that dayyumm password"
+  setTimeout(function()
+  {  document.getElementById('low').remove();
+    ; }, 2000);
+}
+ e.preventDefault();
+
+});
